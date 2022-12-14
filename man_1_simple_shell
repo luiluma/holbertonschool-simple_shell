@@ -1,0 +1,20 @@
+.TH man 1 "13 December 2022" "Holberton shell manual"
+.SH NAME
+.B hsh
+- a simple shell in the style of the shell
+.SH SYNPOSIS
+.B hsh
+.RI [ SCRIPT ]
+.SH DESCRIPTION
+.B hsh
+is a simple shell that shares a general syntax with the shell. When run in a terminal, it process commands typed into the terminal. Commands can also be given directly to
+.B hsh
+on its standard input. Finally,
+.B hsh
+accepts a single argument,
+.I SCRIPT
+, that it will execute commands from as if they were passed as input.
+.PP
+.B hsh
+is missing many features from the shell, including quoted and escaped text on the command line, I/O redirection, and command substitution.
+
