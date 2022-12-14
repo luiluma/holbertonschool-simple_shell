@@ -9,7 +9,7 @@
 
 <p>simple shell is our attempt to recreate a basic shell to communicate with the operating system. We are using the C programing language to write all our sourcecode.</p>
 
-<img src="https://k62.kn3.net/taringa/4/F/6/5/2/8/AgustinLajeFan/550x556_142.jpg" width="500" height="300"/>
+<img src="https://k62.kn3.net/taringa/4/F/6/5/2/8/AgustinLajeFan/550x556_142.jpg" width="300" height="300"/>
 
 <h2>Output</h2>
 
