@@ -25,6 +25,6 @@
 <hr>
 <h3>AUTHORS</h3>
 
-<p>Esteban Enriquez Ruales</p> <img src="https://www.pofilo.fr/img/SPOF-github/github1600.png" width="100" height="100"/>
+<p>Juan Esteban Enriquez</p> <img src="https://www.pofilo.fr/img/SPOF-github/github1600.png" width="100" height="100"/>
 <hr>
 <p>Luisa Maria Lopez</p> <img src="https://www.pofilo.fr/img/SPOF-github/github1600.png" width="100" height="100"/>
