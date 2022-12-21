@@ -5,7 +5,7 @@
 
 <hr>
 
-<h2>Description</h2>
+<h2>Description:</h2>
 
 <p>simple shell is our attempt to recreate a basic shell to communicate with the operating system. We are using the C programing language to write all our sourcecode.</p>
 
