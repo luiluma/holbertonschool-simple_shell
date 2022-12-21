@@ -13,24 +13,25 @@
 int main(int ac, char **av, char **env);
 void prompt(void);
 void control_c(int signals);
-void _EOF(void);
-void shell_exit(void);
+void _EOF(char *buffer);
+void shell_exit(char **command);
 
-/*      make_child       */
+/*      create_child       */
 
-void make_child(char **command, char *name, char **env);
+void create_child(char **command, char *name, char **env, int cicles);
+int change_dir(const char *path);
 
 /*        Execute        */
 
-void execution(char **command, char *name, char **env);
+void execute(char **command, char *name, char **env, int cicles);
 void print_env(char **env);
 char **_getPATH(char **env);
-void msgerror(char **command);
+void msgerror(char *name, int cicles, char **command);
 
-/*          Tokenizer       */
+/*          Tokening       */
 
 
-char **tokenizer(char *buffer, const char *s);
+char **tokening(char *buffer, const char *s);
 
 
 /*      Free Memory       */
