@@ -35,8 +35,10 @@ The next steps are a brief description about how the shell works:
 
 <h2>Functions files of the program</h2>
 
-<p>.</p>
-<p>.</p>
+<p>Main: It contains the input function arguments and also has the output functions in each of the cases.</p>
+
+<p>Shell.h Its the header file</p>
+
 <p>.</p>
 
 <hr>
