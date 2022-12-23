@@ -8,35 +8,30 @@
 #include <unistd.h>
 #include <string.h>
 
-/*      Shell_Init       */
+/*      Main       */
 
 int main(int ac, char **av, char **env);
 void prompt(void);
 void control_c(int signals);
-void _EOF(void);
-void shell_exit(void);
+void _EOF(char *buffer);
+void shell_exit(char **command);
 
-/*      make_child       */
-
-void make_child(char **command, char *name, char **env);
-
-/*        Execute        */
+/*        Execution        */
 
 void execution(char **command, char *name, char **env);
-void print_env(char **env);
 char **_getPATH(char **env);
 void msgerror(char **command);
 
-/*          Tokenizer       */
-
+/*          Tokenizer and Make child       */
 
 char **tokenizer(char *buffer, const char *s);
+void make_child(char **command, char *name, char **env);
 
 
 /*      Free Memory       */
 
 
-void free_dp(char **command);
+void free_commands(char **command);
 void free_exit(char **command);
 
 
