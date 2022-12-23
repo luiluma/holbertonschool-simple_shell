@@ -14,6 +14,7 @@ void execution(char **command, char *name, char **env)
 		if (execve(command[0], command, env) < 0)
 		{
 			perror(name);
+			free_exit(command);
 		}
 	}
 	else
@@ -28,11 +29,14 @@ void execution(char **command, char *name, char **env)
 				if (execve(full_path, command, env) < 0)
 				{
 					perror(name);
+					free_commands(pathways);
+					free_exit(command);
 				}
 				return;
 			}
 		}
 		msgerror(command);
+		free_commands(pathways);
 	}
 }
 
