@@ -37,9 +37,13 @@ The next steps are a brief description about how the shell works:
 
 <p>Main: It contains the input function arguments and also has the output functions in each of the cases.</p>
 
-<p>Shell.h Its the header file</p>
+<p>Shell.h: Its the header file</p>
 
-<p>.</p>
+<p>Auxiliar functions: It contains all the auxiliary functions that allow the program to be run.</p>
+  
+<p>Tokenizer and Make child: It contains all functions them allowing tokenization of shell input arguments.</p>
+ 
+<p>Execution: Find and execute the command requested at the prompt.</p>
 
 <hr>
 <h3>AUTHORS</h3>
